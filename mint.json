@@ -1,13 +1,13 @@
 {
   "$schema": "https://mintlify.com/schema.json",
-  "name": "Starter Kit",
+  "name": "Paquete de inicio",
   "logo": {
     "dark": "/logo/dark.svg",
     "light": "/logo/light.svg"
   },
   "favicon": "/favicon.png",
   "colors": {
-    "primary": "#9563FF",
+    "primary": "#FFCC00",
     "light": "#AE87FF",
     "dark": "#0D001D",
     "background": {
@@ -15,7 +15,7 @@
     },
     "anchors": {
       "from": "#FF7F57",
-      "to": "#9563FF"
+      "to": "#FFCC00"
     }
   },
   "topbarLinks": [
@@ -54,15 +54,27 @@
   "navigation": [
     {
       "group": "Get Started",
-      "pages": ["introduction", "quickstart", "development"]
+      "pages": [
+        "introduction",
+        "quickstart",
+        "development"
+      ]
     },
     {
       "group": "Essentials",
-      "pages": ["essentials/markdown", "essentials/code", "essentials/images", "essentials/settings", "essentials/navigation"]
+      "pages": [
+        "essentials/markdown",
+        "essentials/code",
+        "essentials/images",
+        "essentials/settings",
+        "essentials/navigation"
+      ]
     },
     {
       "group": "API Documentation",
-      "pages": ["api-reference/authentication"]
+      "pages": [
+        "api-reference/authentication"
+      ]
     },
     {
       "group": "Endpoint Examples",
